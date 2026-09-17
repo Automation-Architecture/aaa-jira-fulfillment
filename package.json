@@ -1,0 +1,11 @@
+{
+  "name": "aaa-jira-fulfillment",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "node -c middleware.js && node scripts/check-auth.mjs && node scripts/check-middleware.mjs"
+  },
+  "dependencies": {
+    "@clerk/backend": "^3.18.1"
+  }
+}
